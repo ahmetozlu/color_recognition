@@ -1,6 +1,6 @@
 # COLOR CLASSIFYER
 
-This project focuses on color classifying by K-Nearest Neighbor classifier which is trained by R, G, B Color Histogram. It can classify White, Black, Red, Green, Blue, Orange, Yellow and Violet. If you want to classify more color or improve the accuracy you should work on the [training data]() or consider about other color features such as [Color Moments](https://en.wikipedia.org/wiki/Color_moments) or [Color Correlogram](http://www.cs.cornell.edu/rdz/Papers/ecdl2/spatial.htm).
+This project focuses on color classifying by K-Nearest Neighbor classifier which is trained by R, G, B Color Histogram. It can classify White, Black, Red, Green, Blue, Orange, Yellow and Violet. If you want to classify more color or improve the accuracy you should work on the [training data](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset) or consider about other color features such as [Color Moments](https://en.wikipedia.org/wiki/Color_moments) or [Color Correlogram](http://www.cs.cornell.edu/rdz/Papers/ecdl2/spatial.htm).
 
 ## Quick Demo
 
@@ -10,7 +10,7 @@ This project focuses on color classifying by K-Nearest Neighbor classifier which
 
 ---
 **What does this program do?**
-1. **Feature Extraction:** Perform feature extraction for getting the R, G, B Color Histogram values of [training images]()
+1. **Feature Extraction:** Perform feature extraction for getting the R, G, B Color Histogram values of [training images](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset)
 2. **Training K-Nearest Neighbor Classifier:** Train KNN classifier by R, G, B Color Histogram values
 3. **Classifying by Trained KNN:** Read Web Cam frame by frame, perform feature extraction on each frame and then classify the mean color of it by trained KNN classifier.
 ---
@@ -37,7 +37,7 @@ For this project;
 
 **1.) Feature Extraction** = Color Histogram
 
-Color Histogram is a representation of the distribution of colors in an image​ . For digital images, a color histogram represents the number of pixels that have colors in each of a fixed list of color ranges, that span the image's​ color space​ , the set of all possible colors.
+Color Histogram is a representation of the distribution of colors in an image. For digital images, a color histogram represents the number of pixels that have colors in each of a fixed list of color ranges, that span the image's color space, the set of all possible colors.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/34918867-44f5feaa-f96b-11e7-9994-1747846266c9.png">
@@ -53,15 +53,15 @@ K nearest neighbors is a simple algorithm that stores all available cases and cl
 
 ## Implementation
 
-[OpenCV]() was used for color histogram calculations and knn classifier. [NumPy]() was used for matrix/n-dimensional array calculations. The program was developed on Python at Linux environment.
+[OpenCV](https://pypi.python.org/pypi/opencv-python) was used for color histogram calculations and knn classifier. [NumPy](https://stackoverflow.com/questions/29499815/how-to-install-numpy-on-windows-using-pip-install) was used for matrix/n-dimensional array calculations. The program was developed on Python at Linux environment.
 
 In the “src” folder, there are 3 Python classes which are;
 
-- **[color_classification_main.py]():** main class
+- **[color_classification_main.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/color_classification_main.py):** main class
 
-- **[feature_extraction.py]():** feature extraction operation class
+- **[feature_extraction.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/color_histogram_feature_extraction.py):** feature extraction operation class
 
-- **[knn_classifier.py]():** knn classification class
+- **[knn_classifier.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/knn_classifier.py):** knn classification class
 
 **1.) Explanation of “feature_extraction_module.py”**
 
@@ -88,12 +88,12 @@ This class provides these main calculations;
 
 **“color_classification_main.py”** is the main class of my program, it provides;
 
-1. Calling [feature_extraction.py]() to create training data by feature extraction
-2. Calling [knn_classifier.py]() for classification
+1. Calling [feature_extraction.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/color_histogram_feature_extraction.py) to create training data by feature extraction
+2. Calling [knn_classifier.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/knn_classifier.py) for classification
 
-You can find training data in [here]().
+You can find training data in [here](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset).
 
-You can find features are got from training data in [here]().
+You can find features are got from training data in [here](https://raw.githubusercontent.com/ahmetozlu/color_classifier/master/src/training.data).
 
 ## Conclusion
 
