@@ -1,4 +1,4 @@
-# COLOR CLASSIFIER
+# COLOR RECOGNITION
 
 This project focuses on color classifying by K-Nearest Neighbor classifier which is trained by R, G, B Color Histogram. It can classify White, Black, Red, Green, Blue, Orange, Yellow and Violet. If you want to classify more color or improve the accuracy you should work on the [training data](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset) or consider about other color features such as [Color Moments](https://en.wikipedia.org/wiki/Color_moments) or [Color Correlogram](http://www.cs.cornell.edu/rdz/Papers/ecdl2/spatial.htm).
 
@@ -108,7 +108,7 @@ If you use this code for your publications, please cite it as:
         author = "Ahmet Özlü",
         title  = "Color Classifier",
         year   = "2018",
-        url    = "https://github.com/ahmetozlu/color_classifier"
+        url    = "https://github.com/ahmetozlu/color_recognition"
     }
 
 ## Author
