@@ -63,7 +63,7 @@ In the “src” folder, there are 3 Python classes which are;
 
 - **[knn_classifier.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/knn_classifier.py):** knn classification class
 
-**1.) Explanation of “feature_extraction_module.py”**
+**1.) Explanation of “feature_extraction.py”**
 
 I can get the RGB color histogram of images by this Python class. For example, plot of RGB color histogram for one of the red images is given at the below.
 
@@ -71,7 +71,7 @@ I can get the RGB color histogram of images by this Python class. For example, p
   <img src="https://user-images.githubusercontent.com/22610163/34919478-f198beb8-f975-11e7-8c1c-0a552f7cd673.jpg" {width=25px height=250px}>
 </p>
 
-I decided to use bin number of histogram which has the peak value of pixel count for R, G and B as feature so I can get the dominant R, G and B values to create feature vectors for training. For example, the dominant R, G and B values of the red image which is given at Figure 8 is [254, 0, 2].
+I decided to use bin number of histogram which has the peak value of pixel count for R, G and B as feature so I can get the dominant R, G and B values to create feature vectors for training. For example, the dominant R, G and B values of the red image which is given at above is [254, 0, 2].
 
 I get the dominant R, G, B values by using Color Histogram for each training image then I labelled them because KNN classifier is a supervised learner and I deploy these feature vectors in the csv file. Thus, I create my training feature vector dataset. It can be found in the file which name’s is training_data.data under src folder.
 
