@@ -97,7 +97,7 @@ You can find features are got from training data in [here](https://raw.githubuse
 
 ## Conclusion
 
-I think, the training data has a huge important in classification accuracy. I created my training data carefully but maybe the accuracy can be high with more suitable training data.
+I think, the training data has a huge important in classification accuracy. I created my training data carefully but maybe the accuracy can be higher with more suitable training data.
 
 Another important thing is lightning and shadows. In my test images, the images which were taken under bad lighting conditions and with shadows are classified wrong (false positives), maybe some filtering algorithm should/can be implemented before the test images send to KNN classifier Thus, accuracy can be improved.
 
