@@ -20,7 +20,7 @@ This project focuses on color classifying by K-Nearest Neighbor Machine Learning
 In this study, colors are classified by using K-Neares Neşghbor Machine Learning classifier algorithm. This classifier is trained by image R, G, B Color Histogram values. The general work flow is given at the below.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/34918580-b4c46b64-f965-11e7-8c6b-e7328813f7fa.png" {width=35px height=350px}>
+  <img src="https://user-images.githubusercontent.com/22610163/35210481-6ca77980-ff63-11e7-8297-c9f813958573.png" {width=35px height=350px}>
 </p>
 
 You should know 2 main pheomena to understand basic Object Detection/Recognition Systems of Computer Vision and Machine Learning.
