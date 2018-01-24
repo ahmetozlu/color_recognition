@@ -1,6 +1,6 @@
 # COLOR RECOGNITION
 
-This project focuses on color classifying by K-Nearest Neighbor Machine Learning Classifier which is trained by R, G, B Color Histogram. It can classify White, Black, Red, Green, Blue, Orange, Yellow and Violet. If you want to classify more color or improve the accuracy you should work on the [training data](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset) or consider about other color features such as [Color Moments](https://en.wikipedia.org/wiki/Color_moments) or [Color Correlogram](http://www.cs.cornell.edu/rdz/Papers/ecdl2/spatial.htm).
+This project focuses on color classifying by K-Nearest Neighbors Machine Learning Classifier which is trained by R, G, B Color Histogram. It can classify White, Black, Red, Green, Blue, Orange, Yellow and Violet. If you want to classify more color or improve the accuracy you should work on the [training data](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset) or consider about other color features such as [Color Moments](https://en.wikipedia.org/wiki/Color_moments) or [Color Correlogram](http://www.cs.cornell.edu/rdz/Papers/ecdl2/spatial.htm).
 
 ## Quick Demo
 
@@ -11,7 +11,7 @@ This project focuses on color classifying by K-Nearest Neighbor Machine Learning
 ---
 **What does this program do?**
 1. **Feature Extraction:** Perform feature extraction for getting the R, G, B Color Histogram values of [training images](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset)
-2. **Training K-Nearest Neighbor Classifier:** Train KNN classifier by R, G, B Color Histogram values
+2. **Training K-Nearest Neighbors Classifier:** Train KNN classifier by R, G, B Color Histogram values
 3. **Classifying by Trained KNN:** Read Web Cam frame by frame, perform feature extraction on each frame and then classify the mean color of it by trained KNN classifier.
 ---
 
