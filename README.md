@@ -20,7 +20,7 @@ This project focuses on color classifying by K-Nearest Neighbor Machine Learning
 In this study, colors are classified by using K-Neares Neşghbor Machine Learning classifier algorithm. This classifier is trained by image R, G, B Color Histogram values. The general work flow is given at the below.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/35210481-6ca77980-ff63-11e7-8297-c9f813958573.png" {width=35px height=350px}>
+  <img src="https://user-images.githubusercontent.com/22610163/35335133-a9632c70-0125-11e8-9204-0b4bfd0702a7.png" {width=35px height=350px}>
 </p>
 
 You should know 2 main pheomena to understand basic Object Detection/Recognition Systems of Computer Vision and Machine Learning.
@@ -55,7 +55,7 @@ K nearest neighbors is a simple algorithm that stores all available cases and cl
 
 [OpenCV](https://pypi.python.org/pypi/opencv-python) was used for color histogram calculations and knn classifier. [NumPy](https://stackoverflow.com/questions/29499815/how-to-install-numpy-on-windows-using-pip-install) was used for matrix/n-dimensional array calculations. The program was developed on Python at Linux environment.
 
-In the “src” folder, there are 3 Python classes which are;
+In the “[src](https://github.com/ahmetozlu/color_recognition/tree/master/src)” folder, there are 3 Python classes which are;
 
 - **[color_classification_main.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/color_classification_main.py):** main class
 
@@ -63,7 +63,7 @@ In the “src” folder, there are 3 Python classes which are;
 
 - **[knn_classifier.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/knn_classifier.py):** knn classification class
 
-**1.) Explanation of “feature_extraction.py”**
+**1.) Explanation of “[feature_extraction.py](https://github.com/ahmetozlu/color_recognition/blob/master/src/color_histogram_feature_extraction.py)”**
 
 I can get the RGB color histogram of images by this Python class. For example, plot of RGB color histogram for one of the red images is given at the below.
 
@@ -73,9 +73,9 @@ I can get the RGB color histogram of images by this Python class. For example, p
 
 I decided to use bin number of histogram which has the peak value of pixel count for R, G and B as feature so I can get the dominant R, G and B values to create feature vectors for training. For example, the dominant R, G and B values of the red image which is given at above is [254, 0, 2].
 
-I get the dominant R, G, B values by using Color Histogram for each training image then I labelled them because KNN classifier is a supervised learner and I deploy these feature vectors in the csv file. Thus, I create my training feature vector dataset. It can be found in the file which name’s is training_data.data under src folder.
+I get the dominant R, G, B values by using Color Histogram for each training image then I labelled them because KNN classifier is a supervised learner and I deploy these feature vectors in the csv file. Thus, I create my training feature vector dataset. It can be found in the file which name’s is [training.data](https://github.com/ahmetozlu/color_recognition/blob/master/src/training.data) under src folder.
 
-**2.) Explanation of “knn_classifier.py”**
+**2.) Explanation of “[knn_classifier.py](https://github.com/ahmetozlu/color_recognition/blob/master/src/knn_classifier.py)”**
 
 This class provides these main calculations;
 
@@ -86,7 +86,7 @@ This class provides these main calculations;
 5. Prediction of color
 6. Returning the prediction is true or false
 
-**“color_classification_main.py”** is the main class of my program, it provides;
+**“[color_classification_main.py](https://github.com/ahmetozlu/color_recognition/blob/master/src/color_classification_main.py)”** is the main class of my program, it provides;
 
 1. Calling [feature_extraction.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/color_histogram_feature_extraction.py) to create training data by feature extraction
 2. Calling [knn_classifier.py](https://github.com/ahmetozlu/color_classifier/blob/master/src/knn_classifier.py) for classification
