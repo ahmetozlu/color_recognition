@@ -43,7 +43,7 @@ Color Histogram is a representation of the distribution of colors in an image. F
   <img src="https://user-images.githubusercontent.com/22610163/34918867-44f5feaa-f96b-11e7-9994-1747846266c9.png">
 </p>
 
-**2.) Classification** = K-Nearest Neighbor Algorithm
+**2.) Classification** = K-Nearest Neighbors Algorithm
 
 K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure (e.g., distance functions). KNN has been used in statistical estimation and pattern recognition already in the beginning of 1970’s as a non-parametric technique.
 
