@@ -5,8 +5,8 @@
 #----------------------------------------------
 
 import cv2
-import color_histogram_feature_extraction
-import knn_classifier
+from color_recognition_api import color_histogram_feature_extraction
+from color_recognition_api import knn_classifier
 import os
 import os.path
 
