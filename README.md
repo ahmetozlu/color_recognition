@@ -6,7 +6,7 @@ You can use [color_recognition_api](https://github.com/ahmetozlu/color_recogniti
 
 ## Quick Demo
 
-***Run [color_classification_webcam.py](https://github.com/ahmetozlu/color_recognition/blob/master/src/color_classification_webcam.py) to perform color recognition on a web cam stream.***
+***Run [color_classification_webcam.py](https://github.com/ahmetozlu/color_recognition/blob/master/src/color_classification_webcam.py) to perform real-time color recognition on a web cam stream.***
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/34917659-8497acae-f95a-11e7-93fb-f7cd6cc3128a.gif">
