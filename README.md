@@ -120,7 +120,7 @@ If you use this code for your publications, please cite it as:
 
     @ONLINE{cr,
         author = "Ahmet Özlü",
-        title  = "Color Classifier",
+        title  = "Color Recognition",
         year   = "2018",
         url    = "https://github.com/ahmetozlu/color_recognition"
     }
