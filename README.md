@@ -118,7 +118,7 @@ Another important thing is lightning and shadows. In my test images, the images 
 ## Citation
 If you use this code for your publications, please cite it as:
 
-    @ONLINE{vdtc,
+    @ONLINE{cr,
         author = "Ahmet Özlü",
         title  = "Color Classifier",
         year   = "2018",
