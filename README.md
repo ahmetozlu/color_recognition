@@ -19,6 +19,16 @@ You can use [color_recognition_api](https://github.com/ahmetozlu/color_recogniti
 </p>
 
 ---
+
+**TODOs:**
+
+- "Add New Color" utility will be added.
+- New feature extractor will be added.
+- New classififer will be added.
+
+---
+
+---
 **What does this program do?**
 1. **Feature Extraction:** Perform feature extraction for getting the R, G, B Color Histogram values of [training images](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset)
 2. **Training K-Nearest Neighbors Classifier:** Train KNN classifier by R, G, B Color Histogram values
