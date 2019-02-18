@@ -28,8 +28,8 @@ You can use [color_recognition_api](https://github.com/ahmetozlu/color_recogniti
 **TODOs:**
 
 - "Add New Color" utility will be added.
-- New feature extractor will be added.
-- New classififer will be added.
+- New feature extractors will be added.
+- New classifiers will be added.
 
 
 ## Theory
