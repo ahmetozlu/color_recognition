@@ -11,9 +11,13 @@ from color_recognition_api import color_histogram_feature_extraction
 from color_recognition_api import knn_classifier
 import os
 import os.path
+import sys
 
 # read the test image
-source_image = cv2.imread('black_cat.jpg')
+try:
+    source_image = cv2.imread(sys.argv[1])
+except:
+    source_image = cv2.imread('black_cat.jpg')
 prediction = 'n.a.'
 
 # checking whether the training data is ready
@@ -30,6 +34,7 @@ else:
 # get the prediction
 color_histogram_feature_extraction.color_histogram_of_test_image(source_image)
 prediction = knn_classifier.main('training.data', 'test.data')
+print('Detected color is:', prediction)
 cv2.putText(
     source_image,
     'Prediction: ' + prediction,
