@@ -2,7 +2,7 @@
 
 This project focuses on color classifying by K-Nearest Neighbors Machine Learning Classifier which is trained by R, G, B Color Histogram. It can classify White, Black, Red, Green, Blue, Orange, Yellow and Violet. If you want to classify more color or improve the accuracy you should work on the [training data](https://github.com/ahmetozlu/color_classifier/tree/master/src/training_dataset) or consider about other color features such as [Color Moments](https://en.wikipedia.org/wiki/Color_moments) or [Color Correlogram](http://www.cs.cornell.edu/rdz/Papers/ecdl2/spatial.htm).
 
-You can use [color_recognition_api](https://github.com/ahmetozlu/color_recognition/tree/master/src/color_recognition_api) to perform real-time color recognition in your projects. You can find a sample usage of [color_recognition_api](https://github.com/ahmetozlu/color_recognition/tree/master/src/color_recognition_api) in this [**repo**](https://github.com/ahmetozlu/vehicle_counting_tensorflow). ***Please contact if you need professional color recognition project with the super high accuracy.***
+You can use [color_recognition_api](https://github.com/ahmetozlu/color_recognition/tree/master/src/color_recognition_api) to perform real-time color recognition in your projects. You can find a sample usage of [color_recognition_api](https://github.com/ahmetozlu/color_recognition/tree/master/src/color_recognition_api) in this [**repo**](https://github.com/ahmetozlu/vehicle_counting_tensorflow). ***Please contact if you need professional color recognition project with the super high accuracy!***
 
 ## Quick Demo
 
